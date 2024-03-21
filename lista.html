@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta name="viewport" content="width=device-width">
+	<style type="text/css"title="style" media="all">
+		body {
+		   font-family: Arial;
+		   padding: 20px;
+		   background-color: #f1f1f1;
+		}
+		@media all and (max-width: 900px) and (max-devicewidth: 1024px){
+
+		}
+		@keyframes rotate-image {
+			50% {
+				transform: translateZ(-10px) rotateX(60deg) rotateZ(29deg) rotateY(-180deg);
+			}
+		}
+		header {
+		  padding: 30px;
+		  font-size: 35px;
+		  text-align: center;
+		  background: white;
+
+		}
+		.social {
+		  width: 16px;
+		  height: 16px;
+		}
+		.left-column {
+
+			float: left;
+			width: 25%;
+			padding-right: 35px;
+		}
+		#profissional-picture {
+			background-color: #aaa;
+			width: 90%;
+			padding: 4%;
+		}
+		.middle-column {
+			float: left;
+			width: 50%;
+		}
+		* {
+		  box-sizing: border-box;
+		}
+		.right-column {
+			float: left;
+			width: 25%;
+			padding-left: 20px;
+			position: sticky;
+			top: 0;
+		}
+		article {
+			background-color: white;
+			padding: 20px;
+			margin-top: 20px;
+		}
+		footer {
+			padding: 20px;
+			text-align: center;
+			background: #ddd;
+			margin-top: 20px;
+		}
+		main:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		#profissional-picture {
+			animation-name: rotate-image;
+			animation-duration: 4s;
+			animation-timing-function: ease-in-out;
+			animation-delay: 2s;
+			animation-iteration-count: 2;
+		}
+
+	</style>
+	<title>Curriculo</title>
+</head>
+<body>
+	<header>
+		<h2>Igor Fabricio andrade dos santos</h2>
+	</header>
+
+	<main>
+		<section class="left-column">
+			<article>
+				<img id="profissional-picture"src="D:\Biblioteca\Area de Trabalho\pythonProject\foto-profissional.jpg">
+			</article>
+			<article>
+				<h3>Redes sociais</h3>
+				<p>
+					<a href="https://www.linkedin.com/" target="blank">
+						<img src="D:\Biblioteca\Area de Trabalho\pythonProject\linkedin.png" class="social" />
+						Linkedin
+					</a>
+				</p>
+				<p>
+					<a href="https://www.facebook.com/" target="blank">
+						<img src="D:\Biblioteca\Area de Trabalho\pythonProject\facebook.png" class="social" />
+						Facebook
+					</a>
+				</p>
+			</article>
+			<article>
+				<h2>Cursos:</h2>
+				<div class="card-content">
+					<ul>
+						<li>HTML e CSS - SENAC</li>
+						<li>Programação Front-End - SENAI</li>
+						<li>Programação Back-End - SENAI</li>
+					</ul>			
+				</div>
+			</article>		
+			<article>
+				<h2>Área de Atuação:</h2>
+				<div class="card-content">
+					<ul>
+						<li>FRONTEND</li>
+						<li>FRONTEND</li>
+						<li>FRONTEND</li>
+					</ul>			
+				</div>
+			</article>		
+		</section>
+		<section class="middle-column">
+			<article>
+				<h2 id="personal information">Informações Pessoais</h2>
+				<h4>Nacionalidade</h4>
+				<p>Brasileiro</p>
+				<h4>Estado Civil</h4>
+				<p>Solteiro</p>
+				<h4>Idade</h4>
+				<p>-- Anos</p>
+				<h4>Data de Nascimento:</h4>
+				<p>--/--/----</p>
+				<h4>Contato:</h4>
+				<p>(99) 9 9999-9999  (99)9 9999-9999</p>
+				<h4>E-mail:</h4>
+				<p>----------@gmail.com</p>
+				<h4>Estado</h4>
+				<p>Rio de janeiro</p>
+				<h4>Endereço:</h4>
+				<p>Rua -------, N --</p>
+				<h4>Bairro</h4>
+				<p>--------RJ</p>
+			</article>
+			<article>
+				<h2 id="professional history">Histórico Profissional:</h2>
+				<div class= "card-content">
+					<h4>Empresa</h4>
+					<p> SENAI</p>
+					<p>
+						<strong>Cargo:</strong>
+						DEV
+					</p>
+					<p>
+						<strong>Data</strong>
+					01/02/2020 a 01/10/2023
+					</p>
+					<p>
+						<strong>Principais Atividades:</strong>
+						DEV
+					</p>
+				</div>
+			</article>
+			<article>
+				<h2 id="professional experience">Experiência Profissional</h2>
+				<div class= "card-content">
+					<h4>Resumo Profissional</h4>
+					<p>FRONTEND</p>
+					<p>Experiência em FRONTEND</p>
+					<p>Experiência em FRONTEND</p>
+					<p>Experiência em FRONTEND</p>
+				</div>
+			</article>
+
+			<article>
+			<h2 id="formation">Formação:</h2>
+			<div class="card-content">
+				<h4>Ensino médio Completo</h4>
+				<p>
+					<strong>Instituição:</strong>
+					ETERJ - Escola técnica do Rio de janeiro
+				</p>
+				<p>
+					<strong>Data:</strong>
+					15/01/2017 a 23/12/2019
+				</p>
+			
+			<hr/>
+				<div class="card-content">
+				<h4>Ensino médio Completo</h4>
+				<p>
+					<strong>Instituição:</strong>
+					ETERJ
+				</p>
+				<p>
+					<strong>Data:</strong>
+					01/01/2017 a 19/12/2019
+				</p>
+			</div>
+			</article>
+		</section>
+	</div>
+		<section class="right-column">
+			<article>
+				<h3>Acesso Rápido:</h3>
+				<nav> 
+					<ul>
+						<a href="#personal information"><li>Informações Pessoais</li></a>
+						<a href="#professional history"><li>Histórico Profissional</li></a>
+						<a href="#professional experience"><li>Experiência Profissional</li></a>
+						<a href="#formation"><li>formação</li></a>
+					</ul>
+				</nav>
+			</article>
+		</section>
+	</main>
+
+	<footer>
+			<h4>Copyright©2023-2023, curriculo. Todos os direitos reservados. Todos os textos, imagens, gráficos, animações, vídeos, músicas, sons e outros materiais são protegidos por direitos autorais e outros direitos de propriedade intelectual pertencentes à curriculo Company, suas subsidiárias, afiliadas e licenciantes.</h4>
+	</footer>
+</body>
+</html>

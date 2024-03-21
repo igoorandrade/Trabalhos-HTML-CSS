@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style> 
+    .row {
+        padding: 0 20px;
+        display: table;
+        width: 100%;
+    }
+    form {
+        width: 50%;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px #999;
+    }
+
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 1em;
+        font: 1em sans-serif;
+        border: 1px solid #999;
+    }
+    label {
+        font-weight: bold;
+        padding-bottom: 5px;
+        display: inline-block;
+    }
+    button {
+        background-color: white;
+        border:  1px solid rgb(21, 4, 98);
+        color: rgb(21, 4, 98);
+        font-weight: bold;
+        padding: 15px;
+        border-radius: 3px;
+    }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <form class="card">
+            <label for="inputNome">Nome:</label>
+            <input type="text" id="inputNome">
+        
+            <label for="inputEmail">E-mail:</label>
+            <input type="email" id="inputEmail">
+
+            <label for="inputWeb">Website:</label>
+            <input type="text" id="inputWeb">
+        
+            <label for="textareaComentario">Comentario:</label>
+            <textarea name="textareaComentario" id="textareaComentario"></textarea>
+            <p>Observação: Seu comentario será publicado após passar pelo moderador.</p>
+        
+            <Button>Enviar Mensagem</Button>
+    
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
